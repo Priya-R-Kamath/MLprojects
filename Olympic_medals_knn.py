@@ -9,8 +9,7 @@ import pandas as pd
 import seaborn as sns
 from sklearn import neighbors
 from sklearn.metrics import mean_absolute_error 
-from math import sqrt
-import matplotlib.pyplot as plt
+
 
 
 teams  = pd.read_csv("teams.csv")
